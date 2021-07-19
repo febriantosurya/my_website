@@ -46,7 +46,9 @@
       <div class="card my-profile">
         <div class="card-body">
           <div class="d-flex flex-column align-items-center text-center">
-            <img src="{{ url_for('static', filename='images/pprofile.png') }}" alt="Admin" class="rounded-circle" width="150">
+            <div class="img-wrap">
+              <img src="{{ url_for('static', filename='images/pprofile.png') }}" alt="Admin" width="150">
+            </div>
             <div class="mt-3">
               <h4>Febrianto Surya</h4>
               <p class="text-secondary mb-1">I'm a Student</p>

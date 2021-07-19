@@ -68,3 +68,9 @@ svg rect{
 		opacity: 1;
 	}
 }
+.img-wrap {
+	width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 50%;
+}
